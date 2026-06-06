@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WF26</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="home" class="screen active">
+    <div class="hero-card">
+      <h1>WF26</h1>
+      <p id="homeSubtitle">Football Simulator</p>
+
+      <button class="playButton" onclick="showScreen('menu')">
+        ▶ TAP TO PLAY
+      </button>
+    </div>
+
+    <div class="languageBar">
+      <button class="langBtn" onclick="setLanguage('pt')">🇧🇷</button>
+      <button class="langBtn" onclick="setLanguage('en')">🇺🇸</button>
+      <button class="langBtn" onclick="setLanguage('es')">🇪🇸</button>
+      <button class="langBtn" onclick="setLanguage('fr')">🇫🇷</button>
+    </div>
+  </section>
+
+  <section id="menu" class="screen">
+    <h2 id="menuTitle">Main Menu</h2>
+
+    <button onclick="showScreen('friendly')">⚽ Friendly Match</button>
+    <button onclick="showScreen('clubDatabase')">📚 Club Database</button>
+    <button onclick="showScreen('manager')">👔 Manager Mode</button>
+  </section>
+
+  <section id="friendly" class="screen">
+    <h2>⚽ Friendly Match</h2>
+
+    <div class="match-select">
+      <div class="team-card">
+        <img id="homeLogo" class="clubLogo" alt="Home Team">
+        <select id="homeTeam"></select>
+      </div>
+
+      <div class="versus">VS</div>
+
+      <div class="team-card">
+        <img id="awayLogo" class="clubLogo" alt="Away Team">
+        <select id="awayTeam"></select>
+      </div>
+    </div>
+
+    <button onclick="simulateMatch()">▶ Start Match</button>
+
+    <div id="matchResult" class="card"></div>
+
+    <button onclick="showScreen('menu')">⬅ Back</button>
+  </section>
+
+  <section id="clubDatabase" class="screen">
+    <h2>📚 Club Database</h2>
+
+    <div class="card">
+      <img id="dbLogo" class="clubLogo" alt="Club Logo">
+      <br><br>
+      <select id="dbTeam"></select>
+      <br><br>
+      <button onclick="loadClubDatabase()">Load Club</button>
+    </div>
+
+    <div id="clubInfo" class="card"></div>
+
+    <button onclick="showScreen('menu')">⬅ Back</button>
+  </section>
+
+  <section id="manager" class="screen">
+    <h2>👔 Manager Mode</h2>
+
+    <div id="managerContent" class="card">
+      <p>Loading Manager Mode...</p>
+    </div>
+
+    <button onclick="showScreen('menu')">⬅ Back</button>
+  </section>
+
+  <script src="config.js"></script>
+  <script src="matchevents.js"></script>
+  <script src="career.js"></script>
+  <script src="transfers.js"></script>
+  <script src="formations.js"></script>
+  <script src="news.js"></script>
+  <script src="save.js"></script>
+  <script src="manager.js"></script>
+  <script src="game.js"></script>
+
+</body>
+</html>
