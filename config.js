@@ -11,13 +11,13 @@ const FORMATIONS = {
 
 const FREE_AGENTS = [
   ["Cristiano Ronaldo", "Attacker", 86, 55000000, 40, 86],
-  ["Lionel Messi", "Attacker", 88, 55000000, 38, 88],
+  ["Lionel Messi", "Attacker", 86, 55000000, 38, 86],
   ["Victor Osimhen", "Attacker", 87, 65000000, 27, 89],
-  ["Kevin De Bruyne", "Midfielder", 88, 40000000, 35, 88],
-  ["Endrick", "Attacker", 80, 45000000, 20, 90],
-  ["Estevão", "Attacker", 78, 30000000, 19, 91],
-  ["Rayan", "Attacker", 75, 32000000, 20, 86],
-  ["Güler", "Midfielder", 79, 45000000, 21, 89],
+  ["Kevin De Bruyne", "Midfielder", 83, 40000000, 35, 83],
+  ["Endrick", "Attacker", 81, 45000000, 20, 90],
+  ["Estevão", "Attacker", 80, 30000000, 19, 91],
+  ["Rayan", "Attacker", 79, 32000000, 20, 86],
+  ["Güler", "Midfielder", 80, 45000000, 21, 89],
   ["Neymar Jr", "Midfielder", 85, 55000000, 34, 85],
   ["Raphael Veiga", "Midfielder", 83, 32000000, 30, 83],
   ["Wesley", "Defender", 84, 63000000, 22, 89]
