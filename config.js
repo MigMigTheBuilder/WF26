@@ -194,15 +194,15 @@ const TEAMS = [
     logo: "https://media.api-sports.io/football/teams/211.png",
     players: [
       ["Vangelis Pavlidis", "Attacker", 84],
-      ["Kerem Aktürkoğlu", "Attacker", 82],
-      ["Andreas Schjelderup", "Attacker", 80],
-      ["Orkun Kökçü", "Midfielder", 84],
+      ["Prestianni", "Attacker", 81],
+      ["Andreas Schjelderup", "Attacker", 83],
+      ["Richard Rios", "Midfielder", 82],
       ["Florentino Luís", "Midfielder", 82],
       ["Fredrik Aursnes", "Midfielder", 82],
       ["António Silva", "Defender", 83],
-      ["Tomás Araújo", "Defender", 82],
+      ["Tomás Araújo", "Defender", 83],
       ["Samuel Dahl", "Defender", 80],
-      ["Anatoliy Trubin", "Goalkeeper", 82]
+      ["Anatoliy Trubin", "Goalkeeper", 83]
     ]
   },
   {
@@ -210,16 +210,16 @@ const TEAMS = [
     name: "Sporting CP",
     logo: "https://media.api-sports.io/football/teams/228.png",
     players: [
-      ["Francisco Trincão", "Attacker", 83],
+      ["Francisco Trincão", "Attacker", 84],
       ["Pedro Gonçalves", "Midfielder", 84],
-      ["Geny Catamo", "Attacker", 80],
-      ["Geovany Quenda", "Attacker", 80],
+      ["Geny Catamo", "Attacker", 82],
+      ["Geovany Quenda", "Attacker", 83],
       ["Morten Hjulmand", "Midfielder", 83],
       ["Hidemasa Morita", "Midfielder", 81],
       ["Gonçalo Inácio", "Defender", 84],
       ["Ousmane Diomande", "Defender", 83],
       ["Zeno Debast", "Defender", 81],
-      ["Rui Silva", "Goalkeeper", 80]
+      ["Rui Silva", "Goalkeeper", 82]
     ]
   },
   {
