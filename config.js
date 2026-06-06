@@ -14,7 +14,7 @@ const FREE_AGENTS = [
   ["Lionel Messi", "Attacker", 88, 30000000, 38, 88],
   ["Victor Osimhen", "Attacker", 87, 65000000, 27, 89],
   ["Florian Wirtz", "Midfielder", 89, 85000000, 23, 94],
-  ["Jamal Musiala", "Midfielder", 90, 90000000, 23, 94],
+  ["Jamal Musiala", "Midfielder", 90, 95000000, 23, 94],
   ["Kevin De Bruyne", "Midfielder", 88, 40000000, 35, 88],
   ["Virgil van Dijk", "Defender", 89, 45000000, 34, 89],
   ["Achraf Hakimi", "Defender", 86, 59000000, 27, 88],
