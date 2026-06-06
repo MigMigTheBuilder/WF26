@@ -1,4 +1,4 @@
-const MAX_ROUNDS = 17;
+const MAX_ROUNDS = 34;
 const MAX_SQUAD_SIZE = 10;
 
 const FORMATIONS = {
@@ -199,12 +199,14 @@ const TEAMS = [
     logo: "https://media.api-sports.io/football/teams/211.png",
     players: [
       ["Vangelis Pavlidis", "Attacker", 84],
-      ["Ángel Di María", "Attacker", 83],
       ["Kerem Aktürkoğlu", "Attacker", 82],
+      ["Andreas Schjelderup", "Attacker", 80],
       ["Orkun Kökçü", "Midfielder", 84],
       ["Florentino Luís", "Midfielder", 82],
       ["Fredrik Aursnes", "Midfielder", 82],
       ["António Silva", "Defender", 83],
+      ["Tomás Araújo", "Defender", 82],
+      ["Samuel Dahl", "Defender", 79],
       ["Anatoliy Trubin", "Goalkeeper", 82]
     ]
   },
@@ -213,14 +215,118 @@ const TEAMS = [
     name: "Sporting CP",
     logo: "https://media.api-sports.io/football/teams/228.png",
     players: [
-      ["Viktor Gyökeres", "Attacker", 88],
       ["Francisco Trincão", "Attacker", 83],
       ["Pedro Gonçalves", "Midfielder", 84],
-      ["Morten Hjulmand", "Midfielder", 83],
       ["Geny Catamo", "Attacker", 80],
+      ["Geovany Quenda", "Attacker", 80],
+      ["Morten Hjulmand", "Midfielder", 83],
+      ["Hidemasa Morita", "Midfielder", 81],
       ["Gonçalo Inácio", "Defender", 84],
       ["Ousmane Diomande", "Defender", 83],
-      ["Franco Israel", "Goalkeeper", 80]
+      ["Zeno Debast", "Defender", 81],
+      ["Rui Silva", "Goalkeeper", 80]
+    ]
+  },
+  {
+    id: 13,
+    name: "River Plate",
+    logo: "https://media.api-sports.io/football/teams/435.png",
+    players: [
+      ["Miguel Borja", "Attacker", 83],
+      ["Facundo Colidio", "Attacker", 80],
+      ["Franco Mastantuono", "Midfielder", 82],
+      ["Nacho Fernández", "Midfielder", 79],
+      ["Rodrigo Aliendro", "Midfielder", 79],
+      ["Santiago Simón", "Midfielder", 78],
+      ["Paulo Díaz", "Defender", 81],
+      ["Germán Pezzella", "Defender", 80],
+      ["Marcos Acuña", "Defender", 81],
+      ["Franco Armani", "Goalkeeper", 81]
+    ]
+  },
+  {
+    id: 14,
+    name: "Boca Juniors",
+    logo: "https://media.api-sports.io/football/teams/451.png",
+    players: [
+      ["Edinson Cavani", "Attacker", 82],
+      ["Miguel Merentiel", "Attacker", 81],
+      ["Kevin Zenón", "Midfielder", 80],
+      ["Alan Velasco", "Midfielder", 79],
+      ["Cristian Medina", "Midfielder", 81],
+      ["Tomás Belmonte", "Midfielder", 78],
+      ["Marcos Rojo", "Defender", 79],
+      ["Nicolás Figal", "Defender", 79],
+      ["Lautaro Blanco", "Defender", 78],
+      ["Sergio Romero", "Goalkeeper", 80]
+    ]
+  },
+  {
+    id: 15,
+    name: "Palmeiras",
+    logo: "https://media.api-sports.io/football/teams/121.png",
+    players: [
+      ["Vitor Roque", "Attacker", 83],
+      ["Estevão", "Attacker", 82],
+      ["Maurício", "Midfielder", 81],
+      ["Raphael Veiga", "Midfielder", 84],
+      ["Richard Ríos", "Midfielder", 82],
+      ["Aníbal Moreno", "Midfielder", 81],
+      ["Murilo", "Defender", 82],
+      ["Gustavo Gómez", "Defender", 84],
+      ["Piquerez", "Defender", 81],
+      ["Weverton", "Goalkeeper", 83]
+    ]
+  },
+  {
+    id: 16,
+    name: "Fluminense",
+    logo: "https://media.api-sports.io/football/teams/124.png",
+    players: [
+      ["Germán Cano", "Attacker", 82],
+      ["Keno", "Attacker", 79],
+      ["Jhon Arias", "Attacker", 84],
+      ["Ganso", "Midfielder", 80],
+      ["Martinelli", "Midfielder", 79],
+      ["Lima", "Midfielder", 78],
+      ["Thiago Silva", "Defender", 83],
+      ["Ignácio", "Defender", 79],
+      ["Samuel Xavier", "Defender", 78],
+      ["Fábio", "Goalkeeper", 80]
+    ]
+  },
+  {
+    id: 17,
+    name: "Botafogo",
+    logo: "https://media.api-sports.io/football/teams/120.png",
+    players: [
+      ["Igor Jesus", "Attacker", 82],
+      ["Savarino", "Attacker", 83],
+      ["Artur", "Attacker", 81],
+      ["Eduardo", "Midfielder", 81],
+      ["Marlon Freitas", "Midfielder", 81],
+      ["Gregore", "Midfielder", 82],
+      ["Bastos", "Defender", 81],
+      ["Alexander Barboza", "Defender", 80],
+      ["Cuiabano", "Defender", 79],
+      ["John", "Goalkeeper", 80]
+    ]
+  },
+  {
+    id: 18,
+    name: "Corinthians",
+    logo: "https://media.api-sports.io/football/teams/131.png",
+    players: [
+      ["Yuri Alberto", "Attacker", 83],
+      ["Memphis Depay", "Attacker", 84],
+      ["Rodrigo Garro", "Midfielder", 84],
+      ["Igor Coronado", "Midfielder", 81],
+      ["Raniele", "Midfielder", 79],
+      ["Maycon", "Midfielder", 79],
+      ["Félix Torres", "Defender", 80],
+      ["André Ramalho", "Defender", 79],
+      ["Matheus Bidu", "Defender", 78],
+      ["Hugo Souza", "Goalkeeper", 81]
     ]
   }
 ];
