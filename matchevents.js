@@ -3,13 +3,24 @@ let activeLiveMatchInterval = null;
 function chooseMatchScorer(team){
   const attackers = team.players.filter(player => player[1] === "Attacker");
   const midfielders = team.players.filter(player => player[1] === "Midfielder");
+  const defenders = team.players.filter(player => player[1] === "Defender");
 
-  const options = [
+  let options = [
+    ...attackers,
     ...attackers,
     ...attackers,
     ...midfielders,
-    ...team.players
+    ...midfielders,
+    ...defenders
   ];
+
+  if(options.length === 0){
+    options = team.players.filter(player => player[1] !== "Goalkeeper");
+  }
+
+  if(options.length === 0){
+    options = team.players;
+  }
 
   return options[Math.floor(Math.random() * options.length)];
 }
