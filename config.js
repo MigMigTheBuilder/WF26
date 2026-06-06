@@ -2,26 +2,11 @@ const MAX_ROUNDS = 17;
 const MAX_SQUAD_SIZE = 10;
 
 const FORMATIONS = {
-  "2-1-2": {
-    attack: 0,
-    defense: 0
-  },
-  "1-2-2": {
-    attack: 8,
-    defense: -5
-  },
-  "2-2-1": {
-    attack: -3,
-    defense: 6
-  },
-  "1-3-1": {
-    attack: 3,
-    defense: 3
-  },
-  "3-1-1": {
-    attack: -7,
-    defense: 10
-  }
+  "2-1-2": { attack: 0, defense: 0 },
+  "1-2-2": { attack: 8, defense: -5 },
+  "2-2-1": { attack: -3, defense: 6 },
+  "1-3-1": { attack: 3, defense: 3 },
+  "3-1-1": { attack: -7, defense: 10 }
 };
 
 const FREE_AGENTS = [
@@ -73,7 +58,6 @@ const TEAMS = [
       ["Savinho", "Attacker", 82]
     ]
   },
-
   {
     id: 2,
     name: "Real Madrid",
@@ -89,7 +73,6 @@ const TEAMS = [
       ["Antonio Rüdiger", "Defender", 86]
     ]
   },
-
   {
     id: 3,
     name: "Barcelona",
@@ -105,7 +88,6 @@ const TEAMS = [
       ["Jules Koundé", "Defender", 85]
     ]
   },
-
   {
     id: 4,
     name: "Manchester United",
@@ -121,7 +103,6 @@ const TEAMS = [
       ["Diogo Dalot", "Defender", 82]
     ]
   },
-
   {
     id: 5,
     name: "Liverpool",
@@ -137,7 +118,6 @@ const TEAMS = [
       ["Ibrahima Konaté", "Defender", 84]
     ]
   },
-
   {
     id: 6,
     name: "Arsenal",
@@ -153,7 +133,6 @@ const TEAMS = [
       ["Jurrien Timber", "Defender", 82]
     ]
   },
-
   {
     id: 7,
     name: "Chelsea",
@@ -169,7 +148,6 @@ const TEAMS = [
       ["Levi Colwill", "Defender", 81]
     ]
   },
-
   {
     id: 8,
     name: "PSG",
@@ -185,7 +163,6 @@ const TEAMS = [
       ["Donnarumma", "Goalkeeper", 87]
     ]
   },
-
   {
     id: 9,
     name: "Bayern Munich",
@@ -201,7 +178,6 @@ const TEAMS = [
       ["Davies", "Defender", 84]
     ]
   },
-
   {
     id: 10,
     name: "Flamengo",
@@ -215,6 +191,36 @@ const TEAMS = [
       ["Lucas Paquetá", "Midfielder", 83],
       ["Ayrton Lucas", "Defender", 78],
       ["Rossi", "Goalkeeper", 78]
+    ]
+  },
+  {
+    id: 11,
+    name: "Benfica",
+    logo: "https://media.api-sports.io/football/teams/211.png",
+    players: [
+      ["Vangelis Pavlidis", "Attacker", 84],
+      ["Ángel Di María", "Attacker", 83],
+      ["Kerem Aktürkoğlu", "Attacker", 82],
+      ["Orkun Kökçü", "Midfielder", 84],
+      ["Florentino Luís", "Midfielder", 82],
+      ["Fredrik Aursnes", "Midfielder", 82],
+      ["António Silva", "Defender", 83],
+      ["Anatoliy Trubin", "Goalkeeper", 82]
+    ]
+  },
+  {
+    id: 12,
+    name: "Sporting CP",
+    logo: "https://media.api-sports.io/football/teams/228.png",
+    players: [
+      ["Viktor Gyökeres", "Attacker", 88],
+      ["Francisco Trincão", "Attacker", 83],
+      ["Pedro Gonçalves", "Midfielder", 84],
+      ["Morten Hjulmand", "Midfielder", 83],
+      ["Geny Catamo", "Attacker", 80],
+      ["Gonçalo Inácio", "Defender", 84],
+      ["Ousmane Diomande", "Defender", 83],
+      ["Franco Israel", "Goalkeeper", 80]
     ]
   }
 ];
