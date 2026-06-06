@@ -14,7 +14,6 @@ const FREE_AGENTS = [
   ["Lionel Messi", "Attacker", 88, 30000000, 38, 88],
   ["Victor Osimhen", "Attacker", 87, 65000000, 27, 89],
   ["Florian Wirtz", "Midfielder", 89, 85000000, 23, 94],
-  ["Jamal Musiala", "Midfielder", 90, 95000000, 23, 94],
   ["Kevin De Bruyne", "Midfielder", 88, 40000000, 35, 88],
   ["Virgil van Dijk", "Defender", 89, 45000000, 34, 89],
   ["Achraf Hakimi", "Defender", 86, 59000000, 27, 88],
@@ -26,8 +25,8 @@ const FREE_AGENTS = [
   ["Kobbie Mainoo", "Midfielder", 80, 48000000, 20, 88],
   ["Leny Yoro", "Defender", 80, 40000000, 20, 88],
   ["Güler", "Midfielder", 79, 45000000, 21, 89],
-  ["Neymar Jr", "Midfielder", 84, 30000000, 34, 84]
-  ["Raphael Veiga", "Midfielder", 83, 45000000, 30, 83]
+  ["Neymar Jr", "Midfielder", 84, 30000000, 34, 84],
+  ["Raphael Veiga", "Midfielder", 83, 45000000, 30, 83],
   ["Wesley", "Defender", 84, 65000000, 22, 89]
 ];
 
@@ -115,8 +114,8 @@ const TEAMS = [
       ["Mac Allister", "Midfielder", 86],
       ["Szoboszlai", "Midfielder", 84],
       ["Van Dijk", "Defender", 89],
-      ["Luis Díaz", "Attacker", 85],
-      ["Darwin Núñez", "Attacker", 83],
+      ["Alexander Isak", "Attacker", 87],
+      ["Florian Wirtz", "Midfielder", 87],
       ["Ibrahima Konaté", "Defender", 84]
     ]
   },
