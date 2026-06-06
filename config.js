@@ -10,24 +10,17 @@ const FORMATIONS = {
 };
 
 const FREE_AGENTS = [
-  ["Cristiano Ronaldo", "Attacker", 86, 25000000, 40, 86],
-  ["Lionel Messi", "Attacker", 88, 30000000, 38, 88],
+  ["Cristiano Ronaldo", "Attacker", 86, 55000000, 40, 86],
+  ["Lionel Messi", "Attacker", 88, 55000000, 38, 88],
   ["Victor Osimhen", "Attacker", 87, 65000000, 27, 89],
-  ["Florian Wirtz", "Midfielder", 89, 85000000, 23, 94],
   ["Kevin De Bruyne", "Midfielder", 88, 40000000, 35, 88],
-  ["Virgil van Dijk", "Defender", 89, 45000000, 34, 89],
-  ["Achraf Hakimi", "Defender", 86, 59000000, 27, 88],
-  ["Alisson", "Goalkeeper", 89, 55000000, 33, 89],
-  ["Endrick", "Attacker", 80, 55000000, 20, 90],
-  ["Estevão", "Attacker", 78, 40000000, 19, 91],
-  ["Rayan", "Attacker", 75, 22000000, 20, 86],
-  ["João Neves", "Midfielder", 83, 55000000, 21, 90],
-  ["Kobbie Mainoo", "Midfielder", 80, 48000000, 20, 88],
-  ["Leny Yoro", "Defender", 80, 40000000, 20, 88],
+  ["Endrick", "Attacker", 80, 45000000, 20, 90],
+  ["Estevão", "Attacker", 78, 30000000, 19, 91],
+  ["Rayan", "Attacker", 75, 32000000, 20, 86],
   ["Güler", "Midfielder", 79, 45000000, 21, 89],
-  ["Neymar Jr", "Midfielder", 84, 30000000, 34, 84],
-  ["Raphael Veiga", "Midfielder", 83, 45000000, 30, 83],
-  ["Wesley", "Defender", 84, 65000000, 22, 89]
+  ["Neymar Jr", "Midfielder", 85, 55000000, 34, 85],
+  ["Raphael Veiga", "Midfielder", 83, 32000000, 30, 83],
+  ["Wesley", "Defender", 84, 63000000, 22, 89]
 ];
 
 const YOUTH_NAMES = [
@@ -49,14 +42,14 @@ const TEAMS = [
     name: "Manchester City",
     logo: "https://media.api-sports.io/football/teams/50.png",
     players: [
-      ["Erling Haaland", "Attacker", 95],
-      ["Phil Foden", "Attacker", 89],
-      ["Rodri", "Midfielder", 91],
-      ["Jeremy Doku", "Attacker", 84],
-      ["Rúben Dias", "Defender", 88],
-      ["Bernardo Silva", "Midfielder", 88],
+      ["Erling Haaland", "Attacker", 93],
+      ["Phil Foden", "Attacker", 87],
+      ["Rodri", "Midfielder", 90],
+      ["Jeremy Doku", "Attacker", 87],
+      ["Rúben Dias", "Defender", 87],
+      ["Cherki", "Midfielder", 88],
       ["Josko Gvardiol", "Defender", 85],
-      ["Savinho", "Attacker", 82]
+      ["Savinho", "Attacker", 83]
     ]
   },
   {
@@ -64,14 +57,14 @@ const TEAMS = [
     name: "Real Madrid",
     logo: "https://media.api-sports.io/football/teams/541.png",
     players: [
-      ["Kylian Mbappé", "Attacker", 95],
-      ["Vinícius Junior", "Attacker", 92],
-      ["Jude Bellingham", "Midfielder", 91],
+      ["Kylian Mbappé", "Attacker", 93],
+      ["Vinícius Junior", "Attacker", 90],
+      ["Jude Bellingham", "Midfielder", 90],
       ["Rodrygo", "Attacker", 86],
-      ["Federico Valverde", "Midfielder", 88],
-      ["Aurélien Tchouaméni", "Midfielder", 86],
+      ["Federico Valverde", "Midfielder", 85],
+      ["Aurélien Tchouaméni", "Midfielder", 85],
       ["Eduardo Camavinga", "Midfielder", 85],
-      ["Antonio Rüdiger", "Defender", 86]
+      ["Antonio Rüdiger", "Defender", 85]
     ]
   },
   {
@@ -95,13 +88,13 @@ const TEAMS = [
     logo: "https://media.api-sports.io/football/teams/33.png",
     players: [
       ["Bruno Fernandes", "Midfielder", 87],
-      ["Rasmus Hojlund", "Attacker", 80],
-      ["Joshua Zirkzee", "Attacker", 79],
-      ["Mainoo", "Midfielder", 80],
+      ["Mbeumo", "Attacker", 84],
+      ["Joshua Zirkzee", "Attacker", 80],
+      ["Mainoo", "Midfielder", 82],
       ["Lisandro Martínez", "Defender", 84],
-      ["Garnacho", "Attacker", 81],
-      ["Leny Yoro", "Defender", 80],
-      ["Diogo Dalot", "Defender", 82]
+      ["Matheus Cunha", "Attacker", 84],
+      ["Leny Yoro", "Defender", 82],
+      ["Maguire", "Defender", 80]
     ]
   },
   {
@@ -109,7 +102,7 @@ const TEAMS = [
     name: "Liverpool",
     logo: "https://media.api-sports.io/football/teams/40.png",
     players: [
-      ["Mohamed Salah", "Attacker", 90],
+      ["Mohamed Salah", "Attacker", 88],
       ["Cody Gakpo", "Attacker", 84],
       ["Mac Allister", "Midfielder", 86],
       ["Szoboszlai", "Midfielder", 84],
@@ -127,11 +120,11 @@ const TEAMS = [
       ["Bukayo Saka", "Attacker", 88],
       ["Martin Ødegaard", "Midfielder", 89],
       ["Declan Rice", "Midfielder", 87],
-      ["Kai Havertz", "Attacker", 83],
+      ["Kai Havertz", "Attacker", 85],
       ["William Saliba", "Defender", 87],
-      ["Gabriel Martinelli", "Attacker", 84],
-      ["Gabriel Magalhães", "Defender", 86],
-      ["Jurrien Timber", "Defender", 82]
+      ["Gabriel Martinelli", "Attacker", 83],
+      ["Gabriel Magalhães", "Defender", 88],
+      ["Jurrien Timber", "Defender", 83]
     ]
   },
   {
@@ -140,13 +133,13 @@ const TEAMS = [
     logo: "https://media.api-sports.io/football/teams/49.png",
     players: [
       ["Cole Palmer", "Attacker", 87],
-      ["Nicolas Jackson", "Attacker", 80],
-      ["Enzo Fernández", "Midfielder", 83],
-      ["Caicedo", "Midfielder", 84],
+      ["Garnacho", "Attacker", 82],
+      ["Enzo Fernández", "Midfielder", 86],
+      ["Caicedo", "Midfielder", 87],
       ["Reece James", "Defender", 84],
-      ["Nkunku", "Attacker", 84],
-      ["Neto", "Attacker", 82],
-      ["Levi Colwill", "Defender", 81]
+      ["Nkunku", "Attacker", 83],
+      ["Pedro Neto", "Attacker", 83],
+      ["Levi Colwill", "Defender", 80]
     ]
   },
   {
@@ -154,14 +147,14 @@ const TEAMS = [
     name: "PSG",
     logo: "https://media.api-sports.io/football/teams/85.png",
     players: [
-      ["Dembélé", "Attacker", 86],
-      ["Barcola", "Attacker", 82],
-      ["Vitinha", "Midfielder", 86],
-      ["João Neves", "Midfielder", 83],
-      ["Marquinhos", "Defender", 87],
-      ["Nuno Mendes", "Defender", 84],
+      ["Dembélé", "Attacker", 90],
+      ["Barcola", "Attacker", 85],
+      ["Vitinha", "Midfielder", 88],
+      ["João Neves", "Midfielder", 84],
+      ["Marquinhos", "Defender", 89],
+      ["Nuno Mendes", "Defender", 86],
       ["Gonçalo Ramos", "Attacker", 82],
-      ["Donnarumma", "Goalkeeper", 87]
+      ["Safonov", "Goalkeeper", 82]
     ]
   },
   {
@@ -169,14 +162,14 @@ const TEAMS = [
     name: "Bayern Munich",
     logo: "https://media.api-sports.io/football/teams/157.png",
     players: [
-      ["Harry Kane", "Attacker", 92],
+      ["Harry Kane", "Attacker", 93],
       ["Musiala", "Midfielder", 90],
-      ["Sané", "Attacker", 85],
+      ["Luiz Díaz", "Attacker", 87],
       ["Kimmich", "Midfielder", 88],
-      ["Upamecano", "Defender", 82],
-      ["Olise", "Attacker", 84],
-      ["Pavlović", "Midfielder", 80],
-      ["Davies", "Defender", 84]
+      ["Upamecano", "Defender", 84],
+      ["Olise", "Attacker", 89],
+      ["Pavlović", "Midfielder", 83],
+      ["Davies", "Defender", 83]
     ]
   },
   {
@@ -186,13 +179,13 @@ const TEAMS = [
     players: [
       ["Pedro", "Attacker", 84],
       ["Arrascaeta", "Midfielder", 85],
-      ["Bruno Henrique", "Attacker", 82],
-      ["Samuel Lino", "Midfielder", 82],
-      ["Léo Pereira", "Defender", 82],
+      ["Bruno Henrique", "Attacker", 81],
+      ["Samuel Lino", "Midfielder", 83],
+      ["Léo Pereira", "Defender", 80],
       ["Lucas Paquetá", "Midfielder", 83],
-      ["Varela", "Defender", 81],
-      ["Rossi", "Goalkeeper", 80],
-      ["Gonzalo Plata", "Midfielder", 82]
+      ["Varela", "Defender", 80],
+      ["Rossi", "Goalkeeper", 81],
+      ["Gonzalo Plata", "Midfielder", 81]
    ]
   },
   {
@@ -208,7 +201,7 @@ const TEAMS = [
       ["Fredrik Aursnes", "Midfielder", 82],
       ["António Silva", "Defender", 83],
       ["Tomás Araújo", "Defender", 82],
-      ["Samuel Dahl", "Defender", 79],
+      ["Samuel Dahl", "Defender", 80],
       ["Anatoliy Trubin", "Goalkeeper", 82]
     ]
   },
@@ -234,12 +227,12 @@ const TEAMS = [
     name: "River Plate",
     logo: "https://media.api-sports.io/football/teams/435.png",
     players: [
-      ["Miguel Borja", "Attacker", 83],
+      ["Miguel Borja", "Attacker", 82],
       ["Facundo Colidio", "Attacker", 80],
-      ["Franco Mastantuono", "Midfielder", 82],
-      ["Nacho Fernández", "Midfielder", 79],
-      ["Rodrigo Aliendro", "Midfielder", 79],
-      ["Santiago Simón", "Midfielder", 78],
+      ["Matías Viña", "Defender", 81],
+      ["Nacho Fernández", "Midfielder", 80],
+      ["Rodrigo Aliendro", "Midfielder", 80],
+      ["Santiago Simón", "Midfielder", 80],
       ["Paulo Díaz", "Defender", 81],
       ["Germán Pezzella", "Defender", 80],
       ["Marcos Acuña", "Defender", 81],
@@ -251,15 +244,15 @@ const TEAMS = [
     name: "Boca Juniors",
     logo: "https://media.api-sports.io/football/teams/451.png",
     players: [
-      ["Edinson Cavani", "Attacker", 82],
+      ["Edinson Cavani", "Attacker", 79],
       ["Miguel Merentiel", "Attacker", 81],
       ["Kevin Zenón", "Midfielder", 80],
-      ["Alan Velasco", "Midfielder", 79],
+      ["Alan Velasco", "Midfielder", 80],
       ["Cristian Medina", "Midfielder", 81],
-      ["Tomás Belmonte", "Midfielder", 78],
-      ["Marcos Rojo", "Defender", 79],
-      ["Nicolás Figal", "Defender", 79],
-      ["Lautaro Blanco", "Defender", 78],
+      ["Tomás Belmonte", "Midfielder", 80],
+      ["Marcos Rojo", "Defender", 80],
+      ["Nicolás Figal", "Defender", 80],
+      ["Lautaro Blanco", "Defender", 80],
       ["Sergio Romero", "Goalkeeper", 80]
     ]
   },
@@ -268,16 +261,16 @@ const TEAMS = [
     name: "Palmeiras",
     logo: "https://media.api-sports.io/football/teams/121.png",
     players: [
-      ["Vitor Roque", "Attacker", 84],
-      ["Flaco López", "Attacker", 83],
+      ["Vitor Roque", "Attacker", 82],
+      ["Flaco López", "Attacker", 81],
       ["Maurício", "Midfielder", 81],
       ["Andreas Pereira", "Midfielder", 83],
       ["Jhon Arias", "Midfielder", 83],
       ["Paulinho", "Attacker", 82],
-      ["Murilo", "Defender", 83],
-      ["Gustavo Gómez", "Defender", 84],
-      ["Piquerez", "Defender", 83],
-      ["Carlos Miguel", "Goalkeeper", 79]
+      ["Murilo", "Defender", 81],
+      ["Gustavo Gómez", "Defender", 83],
+      ["Piquerez", "Defender", 82],
+      ["Carlos Miguel", "Goalkeeper", 80]
     ]
   },
   {
@@ -286,15 +279,15 @@ const TEAMS = [
     logo: "https://media.api-sports.io/football/teams/124.png",
     players: [
       ["Germán Cano", "Attacker", 80],
-      ["Canobbio", "Attacker", 82],
-      ["Hulk", "Attacker", 84],
+      ["Canobbio", "Attacker", 81],
+      ["Hulk", "Attacker", 82],
       ["Ganso", "Midfielder", 81],
-      ["Martinelli", "Midfielder", 79],
-      ["Soteldo", "Midfielder", 79],
-      ["Arana", "Defender", 83],
+      ["Martinelli", "Midfielder", 80],
+      ["Soteldo", "Midfielder", 80],
+      ["Arana", "Defender", 82],
       ["Ignácio", "Defender", 80],
-      ["Samuel Xavier", "Defender", 79],
-      ["Fábio", "Goalkeeper", 84]
+      ["Samuel Xavier", "Defender", 80],
+      ["Fábio", "Goalkeeper", 83]
     ]
   },
   {
@@ -310,7 +303,7 @@ const TEAMS = [
       ["Montoro", "Midfielder", 83],
       ["Alex Telles", "Defender", 84],
       ["Marçal", "Defender", 82],
-      ["Vitinho", "Defender", 80],
+      ["Vitinho", "Defender", 81],
       ["Neto", "Goalkeeper", 78]
     ]
   },
