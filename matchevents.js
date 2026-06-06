@@ -1,5 +1,15 @@
 let activeLiveMatchInterval = null;
 
+function getOutfieldPlayers(team){
+  const players = team.players.filter(player => player[1] !== "Goalkeeper");
+
+  if(players.length === 0){
+    return team.players;
+  }
+
+  return players;
+}
+
 function chooseMatchScorer(team){
   const attackers = team.players.filter(player => player[1] === "Attacker");
   const midfielders = team.players.filter(player => player[1] === "Midfielder");
@@ -15,18 +25,16 @@ function chooseMatchScorer(team){
   ];
 
   if(options.length === 0){
-    options = team.players.filter(player => player[1] !== "Goalkeeper");
-  }
-
-  if(options.length === 0){
-    options = team.players;
+    options = getOutfieldPlayers(team);
   }
 
   return options[Math.floor(Math.random() * options.length)];
 }
 
 function chooseMatchPlayer(team){
-  return team.players[Math.floor(Math.random() * team.players.length)];
+  const players = getOutfieldPlayers(team);
+
+  return players[Math.floor(Math.random() * players.length)];
 }
 
 function getMatchPower(team){
@@ -58,7 +66,7 @@ function createMatchEvent(minute, home, away, homeChance, matchData){
   }
 
   if(roll < 0.55){
-    const player = chooseMatchPlayer(attackingTeam);
+    const player = chooseMatchScorer(attackingTeam);
 
     matchData.stats.chances++;
 
@@ -70,7 +78,7 @@ function createMatchEvent(minute, home, away, homeChance, matchData){
   }
 
   if(roll < 0.75){
-    const player = chooseMatchPlayer(attackingTeam);
+    const player = chooseMatchScorer(attackingTeam);
 
     matchData.stats.saves++;
 
