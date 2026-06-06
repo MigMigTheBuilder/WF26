@@ -24,7 +24,6 @@ const FREE_AGENTS = [
   ["Rayan", "Attacker", 75, 12000000, 20, 86],
   ["João Neves", "Midfielder", 83, 55000000, 21, 90],
   ["Kobbie Mainoo", "Midfielder", 80, 38000000, 20, 88],
-  ["Garnacho", "Attacker", 81, 45000000, 21, 88],
   ["Leny Yoro", "Defender", 80, 40000000, 20, 88],
   ["Güler", "Midfielder", 79, 35000000, 21, 89],
   ["Neymar Jr", "Midfielder", 84, 35000000, 34, 84]
