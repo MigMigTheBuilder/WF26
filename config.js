@@ -317,7 +317,7 @@ const TEAMS = [
       ["Rodrigo Garro", "Midfielder", 84],
       ["Breno Bidon", "Midfielder", 81],
       ["Raniele", "Midfielder", 81],
-      ["Kayo Cesar", "Midfielder", 81],
+      ["Kaio César", "Midfielder", 81],
       ["Gustavo Henrique", "Defender", 82],
       ["Gabriel Paulista", "Defender", 82],
       ["Matheus Bidu", "Defender", 82],
